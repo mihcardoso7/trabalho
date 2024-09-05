@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 181, 236);
+    text-align: center; /* Centraliza o texto em todo o corpo */
+}
+
+header {
+    background: radial-gradient(
+        circle,
+        #7265ec,
+        #c577b8
+    ); /* Gradiente radial em forma de círculo */
+    color: #f3f3f3; /* Cor de texto na seção "Contato" */
+    padding: 20px; /* Adiciona um pouco de espaçamento ao redor do conteúdo */
+}
+
+header img {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+p {
+    color: rgb(10, 8, 8);
+}
+
+a {
+    color: #000000; /* Cor preta para o texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Opcional: adiciona um sublinhado ao passar o mouse sobre o link */
+}
+
+button {
+    background-color: #a1f5ce;
+    color: #ffffff; /* Cor do texto dos botões */
+    border: none; /* Remove a borda padrão dos botões */
+    border-radius: 50px; /* Torna os botões redondos */
+    padding: 10px 20px; /* Ajusta o tamanho do botão */
+    margin: 5px; /* Espaçamento entre botões */
+    cursor: pointer; /* Adiciona um cursor de ponteiro para o botão */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+button:hover {
+    background-color: #1d6ab0; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.bloco-branco {
+    background-color: #feffcb; /* Cor de fundo branca */
+    color: #000000; /* Cor do texto preta */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px auto; /* Margem superior e inferior e centraliza horizontalmente */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    max-width: 800px; /* Define uma largura máxima para o bloco */
+}

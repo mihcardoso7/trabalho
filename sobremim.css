@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(
+        circle,
+        #d29df5,
+        #f0a9e6
+    ); /* Gradiente radial em forma de círculo */
+    text-align: center; /* Centraliza o texto e a imagem */
+}
+
+img {
+    margin-top: 20px; /* Espaçamento do topo */
+}
+
+p {
+    color: rgb(0, 0, 0);
+    margin: 20px 0; /* Espaçamento vertical entre parágrafos */
+}
+
+a {
+    color: #000000; /* Cor preta para o texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse sobre o link */
+}
